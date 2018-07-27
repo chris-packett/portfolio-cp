@@ -49,7 +49,7 @@ body {
   width: 36em;
   background-color: #D0D4D6;
   border-radius: .25em;
-  /* border: 1px solid pink; */
+  /* border: 3px solid pink; */
 }
 
 .chat-bubble img {
@@ -133,7 +133,7 @@ body {
 
 .post {
   padding: 0;
-  margin: 1em;
+  margin: 1em 1em -1em 1em;
   height: 12em;
   width: 75em;
   background-color: #D0D4D6;
@@ -172,6 +172,28 @@ body {
   color: #4D4E4E; 
   font-size: 12px;
   /* border: 1px dotted yellow; */
+}
+
+.read-more-button {
+  background-color: #1483D2;
+  border-radius: .25em;
+  height: 2.25em;
+  width: 8em;
+  padding: 0;
+  margin: 0 3em .5em 0;
+  align-self: flex-end;
+  color: rgba(255,255,255,.9);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+
+.read-more-button:hover {
+  background-color: rgba(32,132,208,0.95);
+  border: 1px solid rgba(255,255,255,.5);
 }
 
 .components ul {
